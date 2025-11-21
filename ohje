@@ -1,0 +1,14 @@
+Ohjeet:
+    - Lataa fastfetch
+    - Lataa git
+    - Lataa ascii-image-converter
+    - Laita komento.sh
+    aja:
+    1.    fastfetch --gen-config-full
+    2.    kwrite ~/.config/fastfetch/config.jsonc
+    3.    Ctrl+F ja hae     logo
+    4.    Korvaa lokinsulkeiden sisältö tällä:
+            "type": "command-raw",
+            "source": "ascii-image-converter /home/sylvi/Ohjelmointi/OmaFastfetch/kuva.png --color -d 32,16"
+                                                         ^ Korvaa omavalintaisella kuvalla
+    6. badabimbadabum its done
